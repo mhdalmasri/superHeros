@@ -1,0 +1,46 @@
+html {
+  font-family: 'helvetica neue', helvetica, arial, sans-serif;
+  box-sizing: border-box
+}
+
+body {
+  margin: auto;
+  background-image: url(/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed
+}
+
+section {
+  margin: 20px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+}
+
+article {
+  margin: 50px auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 40%;
+  border-radius: 30px;
+}
+
+header>h1 {
+  font-size: 80px;
+  color: white
+}
+
+h1 {
+  font-family: 'Faster One', cursive;
+  font-size: 40px;
+  text-align: center;
+  color: darkred
+}
+
+p,
+li {
+  font-style: italic;
+  font-weight: bold
+}
